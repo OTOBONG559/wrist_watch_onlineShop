@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+
+/* Header Section */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(35, 33, 33);
+    color: white;
+    padding: 10px; 
+    
+
+    
+}
+
+.xx{
+    color: rgb(142, 169, 193);
+
+}
+
+
+/* Home Section */
+.home{
+    background-image: url(./images/background_picture.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    border-style: none;
+    color: white;
+    padding-top: 180px;
+}
+
+.writing1{
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 4px 4px 4px rgb(240, 23, 23);
+    padding-left: 30px;
+
+}
+
+.writing2{
+    height: 70px;
+    padding-right: 700px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.btn01{
+    padding-left: 30px;
+    padding-top: 70px;
+    color: white;
+}
+
+
+
+.btn1{
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+
+.btn1:hover{
+    background-color: black;
+    color: yellow;
+    transition: 2s;
+    outline: 2px solid rgb(176, 107, 107);
+}
+
+/* brand section */
+.brand{
+    display: flex;
+}
+
+.brand img{
+    width: 1250px;
+    height: 100px;
+}
+
+
+/* products */
+.card-text1{
+    font-size: 60px;
+}
+
+
+/* footer */
+
+
+.write-about{
+   
+    text-align: justify;
+    
+}
+
+.backlink{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+
+.backlink li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+    color: rgb(126, 126, 13);
+}
+
+.backlink li a:hover{
+    color: red;
+}
+
+.icons{
+    justify-content: end;
+    padding-left: 250px;
+    padding-bottom: 5px;
+}
+
+ .icons .bi{
+    margin-left: 30px;
+    font-size: 20px; 
+}
+
+.footer-backlist{
+    list-style: auto auto;
+} 
+
+.tt{
+    padding-top: 90px;
+    margin-left: 100px;
+}
+
+.tp{
+    padding-top: 90px;
+    text-decoration: wavy;
+    font-style: italic;
+    text-shadow: 3px 2px 3px red;
+
+}
+
+
+.grid{
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Header Section */
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background-color:rgb(35, 33, 33);
+        color: white;
+        padding: 10px;
+        
+    }
+    
+    .xx{
+        color: rgb(142, 169, 193);
+    
+    }
+    
+    
+    /* Home Section */
+    .home{
+        background-image: url(./images/background_picture.jpg) ;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        border-style: none;
+        color: white;
+        padding-top: 40px;
+    }
+    
+    .writing1{
+        font-size: 40px;
+        font-weight: 900;
+        text-shadow: 4px 4px 4px rgb(240, 23, 23);
+        padding-left: 30px;
+    
+    }
+    
+     .writing2{
+        
+        padding-right: 10px; 
+        font-size: smaller;
+        padding-left: 30px;
+    }
+     
+    .btn01{
+        padding-left: 30px;
+        padding-top: 70px;
+        color: white;
+    }
+
+    .brand img{
+        width: 70px;
+        height: 30px;
+    }
+    
+    
+    
+    .btn1{
+        border-radius: 7px;
+        padding: 10px;
+    
+    }
+    
+    
+    .btn1:hover{
+        background-color: black;
+        color: yellow;
+        transition: 2s;
+        outline: 2px solid rgb(176, 107, 107);
+    }
+
+    .backlink{
+        justify-content: center;
+        justify-self: auto;
+        
+
+    }
+
+    .backlink li a{
+        font-size: 10px;
+        
+    }
+
+    .xx{
+        display: none;
+    }
+
+    .icons{
+        display: inline;
+        padding: 5px;
+
+    }
+
+    .img-gallery{
+        display: inline;
+        width: 10px;
+
+    }
+
+    .img-gallery img{
+        width: 30%;
+
+    }
+    
+    
+    
+}
+
+
+@media screen and (max-width: 1300px){
+
+    .brand img{
+        width: 1000px;
+        height: 70px;
+    }
+
+
+    .writing2{
+        
+        padding-right: 250px; 
+        font-size: smaller;
+        padding-left: 30px;
+    }
+     
+    .btn01{
+        padding-left: 30px;
+        padding-top: 70px;
+        color: white;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 1300px){
+
+    .xx{
+        display: none;
+    }
+
+    .brand img{
+        width: 800px;
+        height: 40px;
+    }
+
+
+    .writing2{
+        
+        padding-right: 150px; 
+        font-size: smaller;
+        padding-left: 30px;
+    }
+     
+    .btn01{
+        padding-left: 30px;
+        padding-top: 70px;
+        color: white;
+    }
+
+    .icons{
+        display: inline;
+        padding: 2px;
+        margin-left: 30px;
+        
+    }
+
+   
+
+    .img-gallery{
+        display: inline;
+        width: 10px;
+
+    }
+
+    .img-gallery img{
+        width: 30%;
+
+    }
+
+    .backlink{
+        display: inline-flex;
+    
+
+    }
+
+    .backlink li{
+        padding: 2px;
+       
+            
+    }
+
+    .backlink li a{
+        font-size: 11px;
+        padding: 10px;
+
+        
+        
+    }
+
+}
+
+
